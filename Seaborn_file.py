@@ -11,4 +11,5 @@ mu = 100
 
 population = np.random.normal(mu, sigma, sample_size)
 sns.displot(population, kde=False)
+
 plt.show()
