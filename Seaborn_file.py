@@ -10,6 +10,7 @@ sigma = 10
 mu = 100
 
 population = np.random.normal(mu, sigma, sample_size)
-sns.displot(population, kde=False)
+sns.displot(population
+            , kde=True)
 
 plt.show()
